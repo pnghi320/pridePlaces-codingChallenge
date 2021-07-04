@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kayak</title>
+    <meta name="description" content="Kayak" />
+    <meta name="author" content="SitePoint" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+</head>
+
+<body>
+    <div id="nav">
+        <img id="logo" src="assets/logo.svg" alt="Kayak Logo">
+        <span id="tours">Tours</span>
+    </div>
+    <div id="content">
+        <h1 id="title">All the best tours, all in one place.</h1>
+        <form action="">
+            <select class="dropdown" id="seasons" name="seasons" required>
+                <option id="seasons-placeholder" value="" disabled selected hidden>Season</option>
+            </select>
+            <select class="dropdown" id="categories" name="categories" required>
+                <option id="categories-placeholder" value="" disabled selected hidden>Category</option>
+            </select>
+            <select class="dropdown" id="destinations" name="destinations" required>
+                <option id="destinations-placeholder" value="" disabled selected hidden>Destination</option>
+            </select>
+            <div id="submit-button">
+                <input id="submit-button-input" type="image" value="submit" src="assets/search-icon.svg" alt="submit Button">
+            </div>
+        </form>
+        <div id="img-div">
+            <img id="img" src="">
+            <span id="img-title"></span>
+        </div>
+    </div>
+
+
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+@font-face {
+    src: URL(forza-black.woff2);
+    font-family: Forza-Black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+
+#nav {
+    height: 45px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(-135deg, #FF690F 0%, #E8381B 100%);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+#logo {
+    height: 24px;
+    margin-left: 15.2778%;
+}
+
+#tours {
+    font-family: HelveticaNeue-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+
+
+/* title */
+
+#title {
+    font-family: Forza-Black;
+    font-size: 44px;
+    color: #131A1F;
+    text-align: left;
+    line-height: 56px;
+    padding-top: 48px;
+    padding-left: 15.2778%;
+}
+
+#content {
+    background: #FAFAFC;
+    height: 100vh;
+}
+
+
+/* form */
+
+form {
+    margin: 32px 29.67% auto 15.2778%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    background: #F1F4F7;
+    border-radius: 2px;
+    height: 54px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #131A1F;
+    text-align: left;
+    border: 0px;
+    outline: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.83333vw;
+    width: 30.5%;
+    text-transform: capitalize;
+}
+
+#submit-button {
+    background-image: linear-gradient(-135deg, #FF690F 0%, #EE4719 100%);
+    border-radius: 2px;
+    width: 54px;
+    height: 54px;
+}
+
+#submit-button-input {
+    border: 0px;
+    outline: 0px;
+    filter: invert(1);
+    margin: 5px;
+}
+
+
+/* image */
+
+#img-title {
+    position: absolute;
+    font-family: Forza-Black;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 20px;
+    width: 347px;
+    bottom: 24px;
+    left: 31px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#img {
+    width: 54.3055555vw;
+    margin-top: 7px;
+}
+
+#img-div {
+    margin-left: 15.2778vw;
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    #img-title {
+        font-size: 12px;
+        width: 200px;
+        line-height: 10px;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
